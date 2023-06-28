@@ -64,10 +64,10 @@ export default class App extends React.Component {
     }
 
     return (
-      <div className="ms-welcome">
+      <div className="ms-welcome" style={{display: "flex" , flexDirection: 'column ', alignItems: 'center' , }}>
         
 
-        <div>
+        <div >
         <label>نام کاربری   : </label>
         <input/>
         </div>
